@@ -42,10 +42,41 @@ nav ul li a {
 padding: 5px 20px;
 text-decoration: none;
 }
-
-a.active,
-a:hover {
+.active::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    margin-bottom: -12px;
+    transform:scaleX(0) ;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f1602d;
+}
+.active:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  
+}
+.active:hover {
     color: orangered;
+
+}
+.active::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    margin-bottom: -12px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f1602d;
+}
+
+.active:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 
 }
 

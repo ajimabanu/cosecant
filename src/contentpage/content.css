@@ -1,0 +1,29 @@
+.cont{
+
+   background-color:white; 
+   height: 800px;
+   width: 700px;
+margin:-700px 0 100px 900px;
+font-size: medium;
+color: rgb(255, 102, 0);
+}
+.head{
+margin-top: 20px;
+   color: black;
+   font-style: inherit;
+font-size: larger;
+font-weight: 700;
+}
+.para{
+    margin-top: 40px;
+    color: black;
+  font-weight: 900;
+line-height: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+
